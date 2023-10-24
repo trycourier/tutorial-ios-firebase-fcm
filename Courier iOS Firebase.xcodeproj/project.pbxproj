@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2787C4912AEAE6D0000EAF54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2787C4902AEAE6D0000EAF54 /* GoogleService-Info.plist */; };
+		27D8F1A82AE8804300E54210 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 27D8F1A72AE8804300E54210 /* FirebaseMessaging */; };
+		27D8F1B72AE99C7E00E54210 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8F1B62AE99C7E00E54210 /* Env.swift */; };
 		8415951F2AE711C9000F9113 /* Courier_iOS_FirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415951E2AE711C9000F9113 /* Courier_iOS_FirebaseApp.swift */; };
 		841595212AE711C9000F9113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595202AE711C9000F9113 /* ContentView.swift */; };
 		841595232AE711CA000F9113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841595222AE711CA000F9113 /* Assets.xcassets */; };
 		841595262AE711CA000F9113 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841595252AE711CA000F9113 /* Preview Assets.xcassets */; };
+		8415952F2AE714C9000F9113 /* Courier_iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 8415952E2AE714C9000F9113 /* Courier_iOS */; };
+		841595702AE71C7B000F9113 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415956F2AE71C7B000F9113 /* NotificationService.swift */; };
+		841595742AE71C7B000F9113 /* CourierService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8415956D2AE71C7B000F9113 /* CourierService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8415957D2AE71D74000F9113 /* Courier_iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 8415957C2AE71D74000F9113 /* Courier_iOS */; };
+		8415957F2AE71EE4000F9113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415957E2AE71EE4000F9113 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		841595722AE71C7B000F9113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841595132AE711C9000F9113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8415956C2AE71C7B000F9113;
+			remoteInfo = CourierService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		841595782AE71C7B000F9113 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				841595742AE71C7B000F9113 /* CourierService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2787C4902AEAE6D0000EAF54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27D8F1B62AE99C7E00E54210 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		8415951B2AE711C9000F9113 /* Courier iOS Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Courier iOS Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8415951E2AE711C9000F9113 /* Courier_iOS_FirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courier_iOS_FirebaseApp.swift; sourceTree = "<group>"; };
 		841595202AE711C9000F9113 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		841595222AE711CA000F9113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841595252AE711CA000F9113 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8415952C2AE713F3000F9113 /* Courier iOS Firebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Courier iOS Firebase.entitlements"; sourceTree = "<group>"; };
+		8415956D2AE71C7B000F9113 /* CourierService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CourierService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8415956F2AE71C7B000F9113 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		841595712AE71C7B000F9113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8415957E2AE71EE4000F9113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +65,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D8F1A82AE8804300E54210 /* FirebaseMessaging in Frameworks */,
+				8415952F2AE714C9000F9113 /* Courier_iOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415956A2AE71C7B000F9113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8415957D2AE71D74000F9113 /* Courier_iOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				8415951D2AE711C9000F9113 /* Courier iOS Firebase */,
+				8415956E2AE71C7B000F9113 /* CourierService */,
 				8415951C2AE711C9000F9113 /* Products */,
+				841595792AE71D5C000F9113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8415951B2AE711C9000F9113 /* Courier iOS Firebase.app */,
+				8415956D2AE71C7B000F9113 /* CourierService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +103,12 @@
 		8415951D2AE711C9000F9113 /* Courier iOS Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				2787C4902AEAE6D0000EAF54 /* GoogleService-Info.plist */,
+				27D8F1B62AE99C7E00E54210 /* Env.swift */,
+				8415952C2AE713F3000F9113 /* Courier iOS Firebase.entitlements */,
 				8415951E2AE711C9000F9113 /* Courier_iOS_FirebaseApp.swift */,
 				841595202AE711C9000F9113 /* ContentView.swift */,
+				8415957E2AE71EE4000F9113 /* AppDelegate.swift */,
 				841595222AE711CA000F9113 /* Assets.xcassets */,
 				841595242AE711CA000F9113 /* Preview Content */,
 			);
@@ -67,6 +123,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8415956E2AE71C7B000F9113 /* CourierService */ = {
+			isa = PBXGroup;
+			children = (
+				8415956F2AE71C7B000F9113 /* NotificationService.swift */,
+				841595712AE71C7B000F9113 /* Info.plist */,
+			);
+			path = CourierService;
+			sourceTree = "<group>";
+		};
+		841595792AE71D5C000F9113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +149,41 @@
 				841595172AE711C9000F9113 /* Sources */,
 				841595182AE711C9000F9113 /* Frameworks */,
 				841595192AE711C9000F9113 /* Resources */,
+				841595782AE71C7B000F9113 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841595732AE71C7B000F9113 /* PBXTargetDependency */,
+			);
+			name = "Courier iOS Firebase";
+			packageProductDependencies = (
+				8415952E2AE714C9000F9113 /* Courier_iOS */,
+				27D8F1A72AE8804300E54210 /* FirebaseMessaging */,
+			);
+			productName = "Courier iOS Firebase";
+			productReference = 8415951B2AE711C9000F9113 /* Courier iOS Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8415956C2AE71C7B000F9113 /* CourierService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841595752AE71C7B000F9113 /* Build configuration list for PBXNativeTarget "CourierService" */;
+			buildPhases = (
+				841595692AE71C7B000F9113 /* Sources */,
+				8415956A2AE71C7B000F9113 /* Frameworks */,
+				8415956B2AE71C7B000F9113 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Courier iOS Firebase";
-			productName = "Courier iOS Firebase";
-			productReference = 8415951B2AE711C9000F9113 /* Courier iOS Firebase.app */;
-			productType = "com.apple.product-type.application";
+			name = CourierService;
+			packageProductDependencies = (
+				8415957C2AE71D74000F9113 /* Courier_iOS */,
+			);
+			productName = CourierService;
+			productReference = 8415956D2AE71C7B000F9113 /* CourierService.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +198,9 @@
 					8415951A2AE711C9000F9113 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8415956C2AE71C7B000F9113 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 841595162AE711C9000F9113 /* Build configuration list for PBXProject "Courier iOS Firebase" */;
@@ -111,11 +212,16 @@
 				Base,
 			);
 			mainGroup = 841595122AE711C9000F9113;
+			packageReferences = (
+				8415952D2AE714C9000F9113 /* XCRemoteSwiftPackageReference "courier-ios" */,
+				27D8F1A62AE8804300E54210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8415951C2AE711C9000F9113 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8415951A2AE711C9000F9113 /* Courier iOS Firebase */,
+				8415956C2AE71C7B000F9113 /* CourierService */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +233,14 @@
 			files = (
 				841595262AE711CA000F9113 /* Preview Assets.xcassets in Resources */,
 				841595232AE711CA000F9113 /* Assets.xcassets in Resources */,
+				2787C4912AEAE6D0000EAF54 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415956B2AE71C7B000F9113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +251,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8415957F2AE71EE4000F9113 /* AppDelegate.swift in Sources */,
+				27D8F1B72AE99C7E00E54210 /* Env.swift in Sources */,
 				841595212AE711C9000F9113 /* ContentView.swift in Sources */,
 				8415951F2AE711C9000F9113 /* Courier_iOS_FirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		841595692AE71C7B000F9113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841595702AE71C7B000F9113 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841595732AE71C7B000F9113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8415956C2AE71C7B000F9113 /* CourierService */;
+			targetProxy = 841595722AE71C7B000F9113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		841595272AE711CA000F9113 /* Debug */ = {
@@ -267,14 +399,17 @@
 		8415952A2AE711CA000F9113 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Courier iOS Firebase/Courier iOS Firebase.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Courier iOS Firebase/Preview Content\"";
-				DEVELOPMENT_TEAM = 83BJVWGX4Q;
+				DEVELOPMENT_TEAM = VJQ245Q28G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Courier-iOS-Firebase-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,14 +431,17 @@
 		8415952B2AE711CA000F9113 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Courier iOS Firebase/Courier iOS Firebase.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Courier iOS Firebase/Preview Content\"";
-				DEVELOPMENT_TEAM = 83BJVWGX4Q;
+				DEVELOPMENT_TEAM = VJQ245Q28G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Courier-iOS-Firebase-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +454,56 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rabasa.carter.Courier-iOS-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		841595762AE71C7B000F9113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJQ245Q28G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CourierService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CourierService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rabasa.carter.Courier-iOS-Firebase.CourierService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841595772AE71C7B000F9113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJQ245Q28G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CourierService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CourierService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rabasa.carter.Courier-iOS-Firebase.CourierService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +531,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		841595752AE71C7B000F9113 /* Build configuration list for PBXNativeTarget "CourierService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841595762AE71C7B000F9113 /* Debug */,
+				841595772AE71C7B000F9113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27D8F1A62AE8804300E54210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+		8415952D2AE714C9000F9113 /* XCRemoteSwiftPackageReference "courier-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trycourier/courier-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27D8F1A72AE8804300E54210 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D8F1A62AE8804300E54210 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8415952E2AE714C9000F9113 /* Courier_iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8415952D2AE714C9000F9113 /* XCRemoteSwiftPackageReference "courier-ios" */;
+			productName = Courier_iOS;
+		};
+		8415957C2AE71D74000F9113 /* Courier_iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8415952D2AE714C9000F9113 /* XCRemoteSwiftPackageReference "courier-ios" */;
+			productName = Courier_iOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 841595132AE711C9000F9113 /* Project object */;
 }

@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct Courier_iOS_FirebaseApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
             ContentView()
