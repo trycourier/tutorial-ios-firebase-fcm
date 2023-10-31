@@ -6,9 +6,9 @@ This is the code repo for the tutorial published here:
 
 https://www.courier.com/blog/send-firebase-notifications-ios/
 
-In order to get this tutorial up and running, please follow the steps in the tutorial. At a high level, you'll see to:
+In order to get this tutorial up and running, please follow the steps in the tutorial. At a high level, you'll need to:
 
 1. Have an active Apple developer account and a physical iOS device that can recieve push notifications.
-2. Create an `Env.swift` file and populate it with your Courier API key and a user ID.
-3. Create a `Courier-iOS-Firebase-Info.plist` file and set `FirebaseAppDelegateProxyEnabled` to `NO`.
-
+2. Edit `CourierView.swift` to include your Courier API key and a user ID.
+3. Plug-in your iOS device and run the project, targeting your device.
+4. Send a push notification with Courier to the user ID you've defined.
