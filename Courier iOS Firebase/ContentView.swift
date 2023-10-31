@@ -22,8 +22,8 @@ struct ContentView: View {
                 // Make sure your user is signed into Courier
                 // This allows Courier to sync push notification tokens automatically
                 try await Courier.shared.signIn(
-                    accessToken: Env.accessToken,
-                    userId: Env.userId
+                    accessToken: <COURIER_AUTH_TOKEN>,
+                    userId: <COURIER_USER_ID>
                 )
 
                 // Shows a popup where your user can allow or deny push notifications
